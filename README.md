@@ -1,18 +1,16 @@
-# spreadsheet-checker
-By Giovanni "Veirya" Oliver.
+Spreadsheet Checker, by Giovanni "Veirya" Oliver (2020)
+  :::::::::::::::::::::::::::::::::::::::::::::::::
+  Simple script that looks at a Google Sheets sheet of FFXIV FC member data,
+    then compares it to information from the Lodestone. Information considered
+    to be of interest is then printed out for the user to see. Current iteration
+    only works for the FC "FullMetal Alliance" and a hard-coded sheet.
+  Information considered of interest by the script:
+    - New/Old Members
+    - Name Changes
+    - Rank Changes
+    - Possibile Promotion Candidates (FMA New Recruits only)
+    - Lack of Date for a Member in Spreadsheet.
 
-Work in progress Ruby console application that reads a specifically-formatted Google Sheets file 
-for Free Company membership as well as pulls real-time membership data from the lodestone via xivapi.
-Currently, the data is used to check for new members, those who are no longer members, and name changes
-in the Google Sheet. Future expansions include checking join/promotion dates for due promotions, direct
-editing of the sheet, and finding a way to be able to reduce the amount of work on the client side to
-get the program working with Google OAuth.
-
-The code used to read data from the Google Sheets API was taken from their provided quickstart example
-code, and adjusted to fit my usage. The code to start the Google API client and verify it was entirely
+The code used to read data from the Google Sheets API was taken from Google's provided quickstart example
+code, and adjusted to fit my use. The code to start the Google API client and verify it was entirely
 taken from the same file.
-
-While not that complex of a program, it showcases how I can pick up a new language quickly. I already
-generally knew how I would want to structure and read through the data in Python, but I had never used
-Ruby before this project. I finished this iteration of the program within a few hours of me first
-touching the language.
