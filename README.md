@@ -1,5 +1,7 @@
 Spreadsheet Checker, by Giovanni "Veirya" Oliver (2020)
+
   :::::::::::::::::::::::::::::::::::::::::::::::::
+  
   Simple script that looks at a Google Sheets sheet of FFXIV FC member data,
     then compares it to information from the Lodestone. Information considered
     to be of interest is then printed out for the user to see. Current iteration
